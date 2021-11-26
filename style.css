@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+
+* {
+    border: 0px;
+    margin: 0px;
+    font-family: Roboto; 
+} 
+
+
+nav,
+.title-section,
+.sub-heading {
+    background-color: #4DB6AC;
+    color: #E5FFFF;
+}
+
+strong {
+    color: black !important;
+}
+
+nav  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    box-shadow: 0 3px 5px black;
+  }
+
+nav ul {
+    display: flex;
+    gap: 3rem;
+    justify-content: flex-end;
+    padding: 1rem;
+    list-style: none;
+}
+
+.nav-link {
+    background-color: #E5FFFF;
+    border-radius: 3px;
+    color:#4DB6AC;
+    padding: .25rem;
+}
+
+
+.title-section {
+    display:grid;
+    grid-template-columns: repeat (5, 1fr);
+    place-items: center;
+    text-align: left;
+    font-size:2em    
+}
+
+.sub-heading {
+    display:grid;
+    grid-template-rows:auto;
+    place-items: center;
+    text-align: left;
+    font-size:1em;
+}
+
+.about {
+    display:grid;
+    grid-template-columns: minmax (100px, .5fr);
+    grid-template-rows: auto;
+    place-items: center;
+    padding: 2rem;
+    font-size:1em;
+    border-top: 5px solid black;
+}
+
+.portfolio {
+    display:grid;
+    grid-template-columns: repeat (3, 1fr);
+    place-items: center;
+    font-size:1em;
+    border-top: 5px solid black;
+    padding: 2rem;
+    background-color: #FFEBEE;
+}
+
+.card {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border:5px #AE1557;
+    place-items: center;
+}
+
+.experience {
+    display:grid;
+    grid-template-columns: repeat (3, 2fr);
+    place-items: center;
+    font-size:1emem;
+    border-top: 5px solid black;
+    padding: 2rem;
+}
+
+footer {
+    display:flex;
+    font-size:1em;
+
+    padding: 1.25rem;
+    background-color: #1D323A;
+    color:#D6F8F7;
+}
